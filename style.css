@@ -1,52 +1,11 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+    background: #33bce6;
+    background: linear-gradient(to, #66c8e0, #01a3c0);
 }
-.nav ul{
-	list-style:none;
-	background:gray;
-	padding: 0px;
-	margin: auto;
-    margin-bottom: 5px;
-    text-align: center;
-}
-.nav li{
-	display:inline-block;
-    text-align: center;
-}
-.nav a{
-	text-decoration:none;
-	color:black;
-	width:100px;
-	display:block;
-	padding: 15px;
-	font-size:16px;
-    text-align: center;
-	text-transform: uppercase;
-    font-weight: bold;
-	transition: 0.6s;
-}
-.nav a:hover {
-	background: rgb(83, 83, 251);
-	transition:0.6s;
-}
-.titlepic{
-    width: 75%;
-    display: block;
-    margin: auto;
-    border-radius: 10px;
-}
-.textbox1{
-    text-align: center;
-    background:rgb(173, 170, 170);
-    padding:2px;
-    margin: 200px;
-    margin-top: 10px;
-    font-size:14px;
-    font-family: Arial;
-    font-weight: bold;
-    font-size: medium;
-}
-.textbox2{
-    background:gray;
+
+.bg-image {
+    background-image: url("images/light-blue-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
