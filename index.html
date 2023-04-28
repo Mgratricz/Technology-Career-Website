@@ -12,113 +12,82 @@
         <title>Techlosophy</title>
 
     </head>
-    <body style="background-image: url(images/background.jpg);" id="body">
+    <body>
         <header>
-             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-mdb-toggle="collapse"
-                data-mdb-target="#navbarCenteredExample"
-                aria-controls="navbarCenteredExample"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <i class="fas fa-bars"></i>
-              </button>
-              <div
-                class="collapse navbar-collapse justify-content-center"
-                id="navbarCenteredExample"
-              >
-                
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active lead"  href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active lead" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active lead"  href="contact.html">Contact</a>
-                  </li>
-                  
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link active lead"
-                      href="#">
-                     Careers
-                    </a>
-                    
-                  </li>
-                  
-                </ul>
-              </div>
-            </div>
-          </nav>
-            <section>
-                <img src="images/logo.png" class="titlepic img-fluid" alt="Techlosophy-title-picture">
-                <div class="text-center">
+                <a href="#" class="navbar-brand  fs-2 fst-italic"><i class="bi bi-pc-display"></i>Techlosophy</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link active">About</a>
+                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                        <a href="#" class="nav-item nav-link active">Careers</a>
+                    </div>
                 </div>
-               
-            </section>
+            </div>
+        </nav>
         </header>
-
             <main>
                 <section>
                     <article>
                         <div class="text-center">
-                            <img src="images/IT_specialist-900-400.jpg" class="img-fluid" alt="IT-Specialist">
-                        </div>
-                        <div class="textbox1">
-                            <h1>Welcome!</h1>
-                            <p class="lead">Welcome to Techlosophy, your go to website for answering questions as to what technology career path is for you!<br><br>Here at Techlosophy, we are dedicated to informing those who are interested in a career in technology
-                            find out which path they are most suited for, as well as the tips and insight on how to enter that career.
-                            </p>
-                        </div>
-
-                        <div class="col-lg">
-                            <div class="container">
-                                <div class="row py-5">
-                                    <article class="col-lg">
-                                        <div class="text-center">
-                                            <i class="bi bi-laptop" style="color:white;"></i>
-                                            <h3 class="display-6 py-2" style="color:white;">Careers</h3>
-                                            <p class="text-center py-2" style="color:white;"><strong><i>Click here to see the different types of careers that await you!</i></strong></p>
-                                        </div>
-                                    </article>
-
-                                <article class="col-lg">
-                                    <div class="text-center">
-                                        <i class="bi bi-envelope-at" style="color:white;"></i>
-                                        <h3 class="display-6 text-center py-2" style="color:white;">Contact</h3>
-                                        <p class="text-center py-2" style="color:white;">Got Questions? Maybe a career or major recommendation? Click here to contact us!</p>
-                                    </div>
-                                </article>
+                            <h1 class="display-1 py-5"><b>Welcome!</b></h1>
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="images/Daniel-Razmjou-quote.png" class="d-block w-100" alt="quote">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/Erica-Mobley-quote.png" class="d-block w-100" alt="quote">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/IT_specialist-900-400.jpg" class="d-block w-100" alt="IT Specialist">
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
                             </div>
-
-                            <div class="row">
-                                <article class="col-lg">
-                                    <div class="text-center">
-                                        <i class="bi bi-question-circle-fill" style="color:white;"></i>
-                                        <h3 class="display-6 text-center py-2" style="color:white;">About</h3>
-                                        <p class="text-center py-2" style="color:white;">Find out our reason for this website, and why we are dedicated to helping those find out their path</p>
-                                    </div>
-                                </article>
-
-                                <article class="col-lg">
-                                    <div class="text-center"></div>
-                                        <i class=""></i>
-                                        <h3 class="display-6 text-center py-2" style="color:white;">Unknown Link</h3>
-                                        <p class="text-center py-2" style="color:white;">Unknown Text</p>
-                                    </div>
-                                </article>
+                            <div class="container my-5 p-5 shadow-3 bg-white">
+                              <h1 class="display-2"><b>Hey there techie!</b></h1>
+                              <p class="lead">Welcome to Techlosophy, your go to website for answering questions as to what technology career path is for you!<br><br>Here at Techlosophy, we are dedicated to informing those who are interested in a career in technology
+                              find out which path they are most suited for, as well as the tips and insight on how to enter that career.</p>
                             </div>
                         </div>
                     </article>
                 </section>
             </main>
-            <footer>
+
+            <article>
+              <div class="container my-4 p-4 shadow-3 bg-white">
+                <section>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/top-five-industries-in-the-us.jpg" class="img-fluid shadow-2-strong"/>
+                    </div>
+                    <div class="col-md-6">
+                      <h3 class="mb-3">The tech field is booming, literally!</h3>
+                      <p>
+                        According to research from <a href="https://www.zippia.com/advice/tech-industry-statistics/#:~:text=How%20many%20jobs%20are%20available,will%20be%20another%20178%2C000%20added."><i>Zippia</i></a>,
+                        There are at least 3.97 million tech jobs available in the United States as of 2022. And it will not stop there. Second only to healthcare, the technology field is one of the most
+                        popular and high employment fields out there! When there are more people using technology in their everyday lives, there are sure to be a demand for people to help create those
+                        devices and softwares.
+                      </p>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </article>
+            <footer class="text-center">
                 &copy; Techlosoply 2023 
             </footer>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"crossorigin="anonymous"></script>
