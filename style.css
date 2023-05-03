@@ -3,9 +3,4 @@ body {
     background: linear-gradient(to, #66c8e0, #01a3c0);
 }
 
-.bg-image {
-    background-image: url("images/light-blue-background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
